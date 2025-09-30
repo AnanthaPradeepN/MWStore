@@ -9,10 +9,13 @@ const products = [
     { id: 'p1', title: 'Formal Shirt', price: 1200, size: 'M', category: 'Shirts' },
     { id: 'p2', title: 'Leather Shoes', price: 3000, size: 'L', category: 'Shoes' },
     { id: 'p3', title: 'Cotton Trousers', price: 1500, size: 'XL', category: 'Trousers' },
+    { id: 'p4', title: 'Cotton pant', price: 7500, size: 'XL', category: 'Trousers' },
+    { id: 'p5', title: 'Cotton Socks', price: 500, size: 'L', category: 'Trousers' },
 ];
 const users = [
     { id: 'u1', name: 'Anantha', email: 'anantha@example.com', role: 'admin' },
     { id: 'u2', name: 'Ravi', email: 'ravi@example.com', role: 'customer' },
+    { id: 'u3', name: 'Raj', email: 'raj01@example.com', role: 'customer' },
 ];
 const productService = new ProductService_1.ProductService();
 const userService = new UserService_1.UserService();
